@@ -1,0 +1,41 @@
+body {
+	width: 95%;
+	margin: 0 auto;
+}
+
+div#grid, div#words {
+	width: 90%;
+	margin: 0 auto;
+}
+
+div#grid p {
+	font-family: monospace;
+	font-size: 25px;
+	line-height: 1px;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+div#words p {
+	width: 33%;
+	float: left;
+	font-size: 20px;
+	line-height: 0px;
+	text-align: center;
+	font-family: Arial;
+}
+
+h1#title {
+	display: block;
+	margin: 0 auto;
+	font-size: 50px;
+	font-family: Arial;
+	text-align: center;
+}
+
+input#files {
+	margin: 0 auto;
+	width: 100%;
+	border-radius: 25%;
+	height: 500px;
+}
